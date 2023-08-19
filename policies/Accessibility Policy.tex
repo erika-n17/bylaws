@@ -1,0 +1,174 @@
+%Use XeLaTeX to compile.
+
+\documentclass[12pt]{article}
+
+%PACKAGES BEGIN
+\usepackage{fancyhdr}
+\usepackage{geometry}
+	\geometry{left=1in, right=1in, top=1in, bottom=1in}
+\usepackage{fontspec}
+\setmainfont{Garamond}%Special font, use XeLaTeX to compile.
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage[ampersand]{easylist}
+\usepackage{hyperref}
+% PACKAGES END
+
+% FILE INFO
+\author{University of Toronto Engineering Society}
+\title{Policy on Accessibility} %Bylaw number
+\date{}
+% FILE INFO
+
+% TITLING FORMATTING BEGIN
+\titleformat{\section}{\centering\bfseries\large\uppercase}{Chapter\ \thesection \ - }{0ex}{}
+\newcommand{\sectionbreak}{\clearpage}
+\ListProperties(Numbers=a, Numbers4=l, Numbers5=r, Style2=\bfseries, Start1*=\thesection, Start2=0, FinalMark={.}, Hang=true, Margin2=0cm, Margin3=1cm, Margin4=2.5cm, Margin5=3.5cm, Align=1cm, Align3=1.5cm, Space2=.5cm, Hide4=3, Hide5=4)
+\setcounter{section}{-1}
+% TITLING FORMATTING END
+
+% HEADER/FOOTER BEGIN
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{42pt}
+\lhead{
+	\includegraphics{../images/logo.png}
+	}
+\rhead{
+	\textbf{University of Toronto Engineering Society} \\
+	\textbf{Policy on Accessibility} \\
+	Last Revision: \today
+	}
+\rfoot{
+	\thepage
+	}
+% HEADER/FOOTER END
+
+\begin{document}
+
+% TITLE PAGE BEGIN
+\begin{titlepage}
+\begin{center}
+\topskip0pt
+\vspace*{\fill}
+\Large\bfseries\uppercase{
+	Policy Number ``2019-03-23"
+	
+	Policy on Accessibility
+	
+	University of Toronto Engineering Society
+	}
+\vspace*{\fill}
+\end{center}
+\vfill
+\begin{flushright}
+ADOPTED: March 27, 2021
+
+LAST REVISED: \today
+\end{flushright}
+\end{titlepage}
+\pagebreak
+% TITLE PAGE END
+
+% Setting numbering correctly.
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+% Content begin
+\section{General}
+\vspace{5mm} %Header heigh consistency.
+\begin{easylist}
+	&& Purpose
+		&&& To provide a clear process for the Engineering Society to accommodate accessibility needs as best possible and to outline a process to report necessary accessibility improvements to the Faculty of Applied Science and Engineering.
+	&& Definitions
+		&&& “Engineering Society” shall mean the University of Toronto Engineering Society.
+		&&& “Faculty” shall mean the Faculty of Applied Science and Engineering.
+		&&& “University” shall mean the University of Toronto.
+	&& Training
+		&&& The Officers of the Engineering Society must undergo accessibility training during their term of office before the November month of their term provided by the University of Toronto and their resources or from an external organization deemed reliable at a meeting of the Board of Directors.
+		&&& The training must be recognized by the university or use official university ordained materials which can be found on the Accessibility for Ontario Disability Act (AODA) Office \href{https://people.utoronto.ca/inclusion/accessibility/}{website} .
+\end{easylist}
+
+\section{Communications}
+\begin{easylist}
+\ListProperties(Start2=0)
+&& Online 
+	&&& General: For all online content deployed by the Engineering Society, its affiliated clubs, and its associated entities, the content and its delivery should abide by the following guidelines from the \href{https://webinarfiles.s3.ca-central-1.amazonaws.com/July24_2015_AODAAccessibleDesign.pdf}{AODA} as closely as possible: 
+		&&&& Have accessible templating and follow a consistent format.
+		&&&& Have searchable posts or an index to refer to.
+		&&&& Have the ability to be exported to other formats (e.g. .txt format).
+		&&&& Be compatible with all browsers and devices.
+		&&&& Have annotations for non-text media.
+		&&&& Follow basic accessible design as outlined in the Section 1.2 - Print and Publications.
+	&&& Videos: The Engineering Society should abide by the Described and Captioned Media Program (DCMP) captioning guidelines as follows:
+		&&&& For all videos, captions appear on-screen long enough to be read.
+		&&&& On-screen captions are limited to no more than two lines.
+		&&&& Captions shown are synchronized with spoken words.
+		&&&& For all captions, speakers should be identified when more than one person is on-screen or when the speaker is not visible.
+		&&&& Captions should use punctuation to clarify meaning.
+		&&&& For all captions, spelling must be correct throughout the production.
+		&&&& All sound effects should be written when they add to understanding.
+		&&&& All actual words should be captioned, regardless of language or dialect.
+		&&&& The use of slang and accent is preserved and identified in captions.
+&& Print and Publications
+	&&& All Engineering Society prints and publications, as well as prints and publications of affiliated clubs and associated entities, shall the following guidelines, sourced from the  \href{ http://accessiblecampus.ca/reference-library/accessible-digital-documents-websites/clear-print-guidelines/}{Ontario’s University Accessible Campus Clear Print Guidelines}:
+		&&&& Contrast: Text should use high-contrast colours for text and background (e.g. Good examples are black or dark blue text on a white or yellow background, or white or yellow text on a black or dark blue background).
+		&&&& Type colour: When possible, printed material should be made available in black and white for optimized readability. Coloured text should be minimized to things like titles, headlines or highlighted material.
+		&&&& Point size: Text should be kept large between 12 and 18 points, (depending on the font, point size varies among fonts).
+		&&&& Leading: Leading is the space between lines of text and should be at least 25 to 30 per cent greater than the point size.
+		&&&& Font family and font size: Text should be provided in standard sans serif fonts with easily recognizable upper- and lower-case characters (e.g. Arial, Verdana)
+		&&&& Font heaviness: Chosen fonts should have medium heaviness not be light type with thin strokes. When emphasizing a word orpassage, text should be bolded or in heavy font.
+		&&&& Letter spacing: Text should have a wide space between letters. When possible, use default space settings.
+		&&&& Margins and columns: Text should be separated into columns to
+		make it easier to read. Use wide binding margins or spiral bindings if possible. All prints and publications should be on flatpages to work best with vision aids (like magnifiers). 
+		&&&& Paper finish: Prints and publications should use a matte or non-glossy finish to minimize glare. Prints and publications should also avoid using watermarks or complicated background designs.
+		&&&& Clean design and simplicity: Print and publications should use distinctive colours, sizes, and shapes on the covers of materials to make them easier to distinguish.
+		&&&& Alternative formats: Prints and publications should, to the best of their ability, provide the same material and content in electronic formats or offer to provide materials in alternative formats when requested.
+\end{easylist}
+
+\section{Events}
+\begin{easylist}
+\ListProperties(Start2=0)
+&& General
+	&&&All events run by the Engineering Society, its affiliated clubs, and its associated entities will strive to abide by the following guidelines when running events.
+&& Meetings
+	&&& For all open meetings and events (e.g. General Meetings, town halls) of EngSoc, affiliated clubs, or associated entities:
+		&&&&There should be a method of contact for attendees to request accessibility accommodation.
+		&&&& The organizing entity must, to the best of their ability, provide such accommodation.
+		&&&& If the location or event has limits (physical or financial) that impede the implementation of such accessibility accommodation, the organizing entity must, to the best of their ability, provide other means of accessing the content presented in the event (e.g. provide online conferencing options).
+	&&& For meetings and events that require attendance from certain individuals (e.g. All Candidates Meetings, Board of Directors Meetings):
+		&&&&They should abide by all guidelines set forth in Section 2.2.1 above.
+		&&&&If the event cannot provide accessibility accommodation, the attendance of affected individuals should be excused.
+&& Recruitment and Election Processes
+	&&&For recruitment processes or election processes run by the Engineering
+	Society, its affiliated clubs, or its associated entities, the organizing entity must provide proper accommodation for any candidate throughout the process.
+	&&& If accommodation cannot be made for a candidate, they should be excused from that portion of the recruitment or election process with no negative effect on their candidacy.
+&&Service Animals
+	&&&  All Engineering Society events, as well as events of affiliated clubs and associated entities shall adhere to the University’s guidelines on service animals and support resources, provided by the University’s AODA Office:
+		&&&& Service animals are welcome at the University to accompany persons with disabilities who may require assistance.
+		&&&& Working animals must be readily identifiable through visual indicators and must accompany their owner and be kept with their owner at all times.
+		&&&& A requirement for a service animal may also be confirmed by a regulated health professional.
+\end{easylist}
+
+\section{Method of Reporting Issues}
+\begin{easylist}
+\ListProperties(Start2=0)
+&& If a student finds that there is a need for improvement in accessibility services within the Faculty and the Engineering Society, they may report the issue to the Engineering Society’s Vice-President Student Life.
+	&&& When there is an issue raised to the Vice-President Student-Life, the Vice-President Student Life must notify the Equity and Inclusivity Director and work to solve the issue. Possible actions that can be taken are listed below:
+		&&&& Resolve the problem internally within the Engineering Society.
+		&&&& Resolve the problem using Engineering Society funds.
+		&&&& Report the issue to Accessibility Services in the University’s Division of Student Life (e.g. by emailing the Director, contact info of which can be found on the Division of Student Life’s webpage).
+&&& The Vice-President Student Life must report to the Engineering Society’s Board of Directors about any accessibility issues that were reported to them and the progress of their solutions during the year. This report must be presented to the Board of Directors by or in the regular March meeting of the Board of Directors.
+\end{easylist}
+
+\section{Contact Information}
+\begin{easylist}
+\ListProperties(Start2=0)
+&& For support regarding this policy, reach out to: 
+		&&&& Vice-President Student Life at vpstudentlife@skule.ca
+		&&&& Vice-President Communications at vpcomm@skule.ca
+		&&&& SkuleTM Webmaster at webmaster@skule.ca
+		&&&& E&I Director at equity@skule.ca
+\end{easylist}
+
+\end{document}
